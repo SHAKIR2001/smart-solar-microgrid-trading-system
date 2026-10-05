@@ -5,14 +5,12 @@ docs/references
 .dotnet-home/
 .nuget/
 .dotnet-install.ps1
-.env
 **/bin/
 **/obj/
 
 node_modules
 
 # Local editor settings
-.vscode/
 
 # Android / Gradle (mobile application)
 /mobile/.gradle/
@@ -23,3 +21,4 @@ node_modules
 /mobile/.externalNativeBuild/
 /mobile/.cxx/
 *.iml
+config.bat
