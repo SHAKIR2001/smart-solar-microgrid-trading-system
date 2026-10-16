@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
+    "build:iis": "node init && vite build --mode iis",
     "lint": "eslint .",
     "test": "node --test tests/*.test.js",
     "preview": "vite preview"
